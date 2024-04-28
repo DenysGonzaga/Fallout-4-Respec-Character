@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fallout-4-respec-character"
+version = "0.0.1"
+description = "A simple python app to respec a character on Fallout 4, generating a script to be run in game."
+authors = ["Denys Gonzaga"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "4.12.3"
+dynaconf = "3.2.5"
+black = "24.4.2"
+requests = "2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

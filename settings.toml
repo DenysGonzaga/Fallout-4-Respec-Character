@@ -1,0 +1,13 @@
+[character]
+current_level = 46
+boobleheads = ["Intelligence", "Perception", "Strength"]
+
+[internal]
+initial_perk_points = 21
+fallout_wiki_perks_url = "https://fallout.fandom.com/wiki/Fallout_4_perks"
+game_data_path = '''C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data'''
+remove_perk_cmd = "player.removeperk"
+set_special_value_cmd = "player.setav" 
+add_perk_points_cmd = 'CGF "Game.AddPerkPoints"'
+special_names = ["Strength", "Perception", "Endurance", "Charisma", "Intelligence", "Agility", "Luck"]
+script_name = 'respec_script.txt'
